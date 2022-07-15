@@ -1,0 +1,164 @@
+*{
+    order: 1px solid red;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243,243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 55%;
+    height: 100vh;
+}
+.celular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.celular img{
+    height: 35rem;
+}
+.entrar{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100;
+    padding: 3rem;
+    border: 1px solid lightgray;
+}
+.logo img{
+    height: 3rem;
+    padding: 0 0 30px 0;
+}
+.cadastrar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100;
+    padding:1.3rem 0 ;
+    border: 1px solid lightgray;
+}
+.nome{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 30px 0;
+}
+.nome input{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 27px;
+    background-color: rgb(243, 243, 243);
+    border: 1px rgb(211, 211, 211) solid;
+    margin: 5px;
+}
+.entrar-botao{
+    display: flex;
+    align-items: center;
+    padding: 1px 0 12px 0;
+    
+}
+.entrar-botao button{
+    background-color: rgb(91,209, 215) ;
+    width: 250px;
+    height: 27px;
+    border: none;
+    color:white;
+
+}
+.ou{
+    display: flex;
+    align-items: center;
+    color: rgb(179, 196, 190);
+}
+.face{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 2rem;
+    
+}
+.face img{
+    height: 1rem;
+    padding: 10px;
+}
+.cadastrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.cadastrar a {
+    text-decoration-color: aqua;
+}
+.esqueceu{
+    display: flex;
+    align-items: center;
+    color: rgb(55, 55, 95);
+    font-size: 13px;
+}
+.app{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.icone_app{
+    display: flex;
+   
+    align-items: center;
+}
+.icone_app img {
+    height: 2.5rem;
+    margin-top: 1rem;
+    margin-left: 10px;
+}
+
+
+@media (max-width: 1024) {
+    .instagram{
+        width: 80%;
+    }
+}
+@media(max-width: 880px){
+
+    body{
+        background-color: white;
+    }
+    .instagram{
+        width: 60%;
+    }
+    .celular{
+        display: none;
+    }
+    .logo{
+        border: 1px solid transparent;
+    }
+    .cadastrar{
+        border: 1px solid transparent;
+    }
+}
